@@ -1,17 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putchar.rs                                      :+:      :+:    :+:   */
+/*   main.rs                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: welee <welee@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/03/15 10:43:55 by welee             #+#    #+#             */
-/*   Updated: 2024/03/17 13:38:18 by welee            ###   ########.fr       */
+/*   Created: 2024/03/17 13:33:51 by welee             #+#    #+#             */
+/*   Updated: 2024/03/17 13:35:44 by welee            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-use std::io::Write;
+pub mod ft_print_alphabet;
+use ft_print_alphabet::ft_print_alphabet;
 
-pub fn ft_putchar(c: char) {
-	write!(std::io::stdout(), "{}", c).unwrap();
+fn main() {
+	ft_print_alphabet();
 }
