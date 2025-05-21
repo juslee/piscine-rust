@@ -6,7 +6,7 @@
 /*   By: welee <welee@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/15 10:44:05 by welee             #+#    #+#             */
-/*   Updated: 2024/03/17 12:28:32 by welee            ###   ########.fr       */
+/*   Updated: 2025/05/21 17:55:36 by welee            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,5 +14,8 @@ pub mod ft_putchar;
 use ft_putchar::ft_putchar;
 
 fn main() {
-	ft_putchar('A');
+	ft_putchar!('H');
+	ft_putchar!('e');
+	ft_putchar!('y');
+	ft_putchar!('\n');
 }
