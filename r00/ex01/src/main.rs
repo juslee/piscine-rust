@@ -6,13 +6,14 @@
 /*   By: welee <welee@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/17 13:33:51 by welee             #+#    #+#             */
-/*   Updated: 2024/03/17 13:35:44 by welee            ###   ########.fr       */
+/*   Updated: 2025/05/23 17:29:14 by welee            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#[macro_use]
+pub mod ft_putchar;
 pub mod ft_print_alphabet;
-use ft_print_alphabet::ft_print_alphabet;
 
 fn main() {
-	ft_print_alphabet();
+	ft_print_alphabet!();
 }
