@@ -1,17 +1,14 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.rs                                            :+:      :+:    :+:   */
+/*   lib.rs                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: welee <welee@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/03/17 13:33:51 by welee             #+#    #+#             */
-/*   Updated: 2025/05/23 18:14:09 by welee            ###   ########.fr       */
+/*   Created: 2025/05/23 17:55:42 by welee             #+#    #+#             */
+/*   Updated: 2025/05/23 17:56:19 by welee            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-use ft_print_alphabet::ft_print_alphabet;
-
-fn main() {
-	ft_print_alphabet!();
-}
+pub mod ft_putchar;
+pub mod ft_print_alphabet;
