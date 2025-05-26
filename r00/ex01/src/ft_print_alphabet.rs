@@ -6,7 +6,7 @@
 /*   By: welee <welee@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/15 10:43:55 by welee             #+#    #+#             */
-/*   Updated: 2025/05/23 18:25:47 by welee            ###   ########.fr       */
+/*   Updated: 2025/05/26 15:02:37 by welee            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ pub fn ft_print_alphabet<W: Write>(mut w: W) {
 #[macro_export]
 macro_rules! ft_print_alphabet {
 	() => {
-		$crate::ft_print_alphabet::ft_print_alphabet(std::io::stdout())
+		ft_print_alphabet::ft_print_alphabet(std::io::stdout())
 	};
 }
 

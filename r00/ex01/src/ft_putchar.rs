@@ -6,7 +6,7 @@
 /*   By: welee <welee@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/15 10:43:55 by welee             #+#    #+#             */
-/*   Updated: 2025/05/23 17:07:56 by welee            ###   ########.fr       */
+/*   Updated: 2025/05/26 15:01:54 by welee            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ pub fn ft_putchar<W: Write>(mut w: W, c: char) {
 #[macro_export]
 macro_rules! ft_putchar {
 	($c:expr) => {
-		crate::ft_putchar::ft_putchar(std::io::stdout(), $c)
+		ft_putchar::ft_putchar(std::io::stdout(), $c)
 	};
 }
 
