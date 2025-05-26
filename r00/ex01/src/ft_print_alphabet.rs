@@ -6,12 +6,12 @@
 /*   By: welee <welee@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/15 10:43:55 by welee             #+#    #+#             */
-/*   Updated: 2025/05/26 15:02:37 by welee            ###   ########.fr       */
+/*   Updated: 2025/05/26 16:26:55 by welee            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 use std::io::Write;
-use crate::ft_putchar::ft_putchar;
+use crate::ft_print_iter;
 
 /// Prints the lowercase alphabet from 'a' to 'z' to the standard output.
 /// This function uses the `ft_putchar` function to print each character.
@@ -20,9 +20,7 @@ use crate::ft_putchar::ft_putchar;
 /// The function does not return any value.
 /// It is designed to be used with any type that implements the `Write` trait,
 pub fn ft_print_alphabet<W: Write>(mut w: W) {
-	for c in b'a'..=b'z' {
-		ft_putchar(&mut w, c as char);
-	}
+	ft_print_iter::ft_print_iter(&mut w, b'a'..=b'z');
 }
 
 #[macro_export]

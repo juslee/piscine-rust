@@ -6,9 +6,10 @@
 /*   By: welee <welee@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/23 17:55:42 by welee             #+#    #+#             */
-/*   Updated: 2025/05/23 17:56:19 by welee            ###   ########.fr       */
+/*   Updated: 2025/05/26 16:26:42 by welee            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 pub mod ft_putchar;
+pub mod ft_print_iter;
 pub mod ft_print_alphabet;
