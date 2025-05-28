@@ -6,11 +6,11 @@
 /*   By: welee <welee@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/17 13:33:51 by welee             #+#    #+#             */
-/*   Updated: 2025/05/23 18:14:09 by welee            ###   ########.fr       */
+/*   Updated: 2025/05/28 18:26:48 by welee            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-use ft_print_alphabet::ft_print_alphabet;
+use ex01::ft_print_alphabet;
 
 fn main() {
 	ft_print_alphabet!();
