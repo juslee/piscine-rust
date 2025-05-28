@@ -6,11 +6,11 @@
 /*   By: welee <welee@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/17 13:33:51 by welee             #+#    #+#             */
-/*   Updated: 2025/05/26 16:36:05 by welee            ###   ########.fr       */
+/*   Updated: 2025/05/28 18:19:34 by welee            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-use ft_print_numbers::ft_print_numbers;
+use ex03::ft_print_numbers;
 
 fn main() {
 	ft_print_numbers!();

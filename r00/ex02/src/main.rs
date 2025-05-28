@@ -6,11 +6,11 @@
 /*   By: welee <welee@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/17 13:33:51 by welee             #+#    #+#             */
-/*   Updated: 2025/05/26 15:15:41 by welee            ###   ########.fr       */
+/*   Updated: 2025/05/28 18:20:55 by welee            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-use ft_print_reverse_alphabet::ft_print_reverse_alphabet;
+use ex02::ft_print_reverse_alphabet;
 
 fn main() {
 	ft_print_reverse_alphabet!();
